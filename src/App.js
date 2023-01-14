@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Nav from "./components/Nav";
+import Page from "./components/Page";
 
 function App() {
+
+
+  const [state , setState] = useState(false)
+
+  const toggle = () => {
+    setState(!state)
+  }
+
+  const openfun = state ? "open" : null
+  const coverfun = state ? "block" : null
+  const navfun = state ? "add" : null
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="d-flex h-100 p-app ">
+      <Nav state={navfun} />
+      <Page openfun={openfun}/>
+        <div id="cover" className={coverfun}></div>
+          <button id="btn" onClick={toggle}>
+            <i className="fa-solid fa-bars"></i>
+          </button>
     </div>
   );
 }

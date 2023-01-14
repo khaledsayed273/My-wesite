@@ -1,0 +1,23 @@
+.cards{
+    margin-top: 70px;
+}
+
+.cards svg{
+    font-size: 25px;
+}
+.cardskills{
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cardskills:hover .p-img{
+    transform: scale(1.22);
+}
+
+
+
+.cardskills .p-img{
+    width: 5rem;
+    height: 5rem;
+}

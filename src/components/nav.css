@@ -1,0 +1,46 @@
+nav{
+    background-color: rgb(39, 43, 54);
+    top: 0;
+    left: 0;
+    width: 0;
+    visibility: hidden;
+    height: 100vh;
+    z-index: 999;
+    transition: width .2s ease 0s;
+}
+
+.add{
+    visibility: visible !important;
+    width: 250px !important;
+    border-right: 1px solid rgb(126, 126, 126);
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+a{
+    padding: 20px 15px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s linear 0s;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: rgb(104, 193, 133);
+    background-color: #7f959940;
+}
+
+a.active{
+    background-color: #7f959940 ;
+}
+
+a svg{
+    margin-right: .75rem;
+}

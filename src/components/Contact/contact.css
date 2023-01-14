@@ -1,0 +1,54 @@
+h2{
+    color: white;
+}
+.contact .container{
+    width: 100% !important;
+}
+.contact .card{
+    background-color: rgb(39, 43, 54);
+    padding-top: 2rem;
+    color: white;
+    height: 200px;
+}
+
+.contact .card svg{
+    color: rgb(104, 193, 133);
+    font-size: 25px;
+}
+
+.contact .card span{
+    font-size: 22px;
+}
+
+.contact .card p{
+    margin-top: 7px;
+}
+
+
+.container ul li{
+    background-color: #212529;
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container ul li:hover a svg{
+    transform: rotate(360deg);
+}
+
+.container ul li a{
+    display: flex;
+    padding: 17px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.container ul li a svg{
+    margin: 0 !important;
+    font-size: 20px;
+    transition: 300ms;
+}

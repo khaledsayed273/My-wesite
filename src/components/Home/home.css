@@ -1,0 +1,97 @@
+.p-app{
+    background-color: rgb(16, 17, 22);
+
+}
+
+.page{
+    transition: all 0.2s ease 0s;
+    overflow-x: hidden;
+}
+
+#cover{
+    background-color: rgba(40, 43, 52, 0.86);
+    z-index: 990;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    transition: all 0.2s ease 0s;
+}
+
+.block{
+    display: block !important;
+}
+
+.home{
+    background-image: url(../../imeges/home.2c7589d2.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    z-index: 2;
+    color: white;
+    width: 100%;
+    position: relative;
+}
+
+.open{
+    width: calc(100% - 250px) !important;
+}
+
+.home::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(40, 43, 52, 0.86);
+    z-index: -1;
+}
+
+#btn{
+    right: 40px;
+    top: 15px;
+    background-color: rgb(104, 193, 133);
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 998;
+    border: 0;
+}
+
+#btn svg{
+    color: white;
+}
+
+.home span{
+    color: gray;
+    font-weight: 600;
+}
+
+.home h1{
+    font-size: 2.3rem;
+}
+
+.home h3{
+    font-size: 1.5rem;
+    color: white;
+    font-family: serif;
+}
+
+.btnmore{
+    background-color: rgb(104, 193, 133);
+    color: rgb(255, 255, 255);
+    width: 156px;
+    padding: 10px;
+}
+
+.btnmore:hover{
+    background-color: white;
+    color: black;
+}
+
+

@@ -1,0 +1,55 @@
+
+.left{
+    color: white;
+}
+
+.left .image{
+    width: 70%;
+
+}
+
+.left ul{
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+
+    width: 80%;
+}
+
+.left ul li{
+    background-color: #212529;
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left ul li:hover a svg{
+    transform: rotate(360deg);
+}
+
+.left ul li a{
+    display: block;
+    padding: 17px;
+
+    
+}
+
+.left ul li a svg{
+    margin: 0 !important;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.right{
+    color: white;
+}
+
+p{
+    line-height: 2.75rem !important;
+    font-size: 18px;
+}
+
+h2{
+    font-weight: bold;
+}
