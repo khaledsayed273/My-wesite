@@ -3,6 +3,7 @@ import style from "./portfolio.module.css"
 
 import img1 from "../../imeges/2.png"
 import img2 from "../../imeges/3.png"
+import img3 from "../../imeges/4.png"
 
 function Portfolio() {
 
@@ -19,6 +20,12 @@ function Portfolio() {
             img: img2,
             p: "Gym",
             link: "https://react-project-2-seven.vercel.app/"
+        },
+        {
+            id: 3,
+            img: img3,
+            p: "E-Commerce",
+            link: "https://buy-fast-mocha.vercel.app/"
         },
         
     ]
