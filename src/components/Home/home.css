@@ -83,15 +83,15 @@
 }
 
 .btnmore{
-    background-color: rgb(104, 193, 133);
-    color: rgb(255, 255, 255);
-    width: 156px;
-    padding: 10px;
+    background-color: rgb(104, 193, 133) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 156px !important;
+    padding: 10px !important;
 }
 
 .btnmore:hover{
-    background-color: white;
-    color: black;
+    background-color: white !important;
+    color: black !important;
 }
 
 
