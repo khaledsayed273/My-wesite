@@ -1,6 +1,7 @@
 import React from 'react'
 import {  NavLink } from 'react-router-dom'
-import './nav.css'
+import "./nav.css"
+
 
 function Nav({state}) {
     return (
