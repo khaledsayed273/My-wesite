@@ -1,0 +1,56 @@
+
+.left{
+    color: white;
+}
+
+.left .image{
+    width: 70%;
+
+}
+
+.left ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.left ul li{
+    background-color: #212529;
+    margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+}
+
+.left ul li:hover a svg{
+    transform: rotate(360deg);
+}
+
+.left ul li a{
+    display: flex !important;
+    padding: 17px;
+    width: 100%;
+    justify-content: center;
+}
+
+.left ul li a svg{
+    margin: 0 !important;
+    font-size: 20px;
+    transition: 300ms;
+}
+
+.right{
+    color: white;
+}
+
+.right p{
+    line-height: 2.75rem !important;
+    font-size: 18px;
+}
+
+.right h2{
+    font-weight: bold;
+}
+
