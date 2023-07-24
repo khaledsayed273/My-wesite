@@ -18,8 +18,8 @@ function Portfolio() {
         {
             id: 2,
             img: img2,
-            p: "Gym",
-            link: "https://react-project-2-seven.vercel.app/"
+            p: "the_event_product",
+            link: "https://the-event-product.vercel.app/"
         },
         {
             id: 3,
