@@ -4,6 +4,7 @@ import style from "./portfolio.module.css"
 import img1 from "../../imeges/2.png"
 import img2 from "../../imeges/3.png"
 import img3 from "../../imeges/4.png"
+import img4 from "../../imeges/Screenshot (15).png"
 
 function Portfolio() {
 
@@ -27,6 +28,11 @@ function Portfolio() {
             p: "E-Commerce",
             link: "https://buy-fast-mocha.vercel.app/"
         },
+        {
+            id: 4,
+            img: img4,
+            p: "dashboard I worked on at my previous company",
+        },
         
     ]
 
@@ -42,7 +48,9 @@ function Portfolio() {
                                     <div className={style.image}>
                                         <img src={item.img} className="card-img-top w-100 h-100" alt="..." />
                                         <div className={style.over}>
-                                            <a target="_blank" className='w-50 text-center m-auto ' href={item.link} rel="noreferrer">Vist Website</a>
+                                            {item.link && (
+                                                <a target="_blank" className='w-50 text-center m-auto ' href={item.link} rel="noreferrer">Visit Website</a>
+                                            ) }
                                         </div>
                                     </div>
                                     <div className="card-body p-2">

@@ -60,6 +60,21 @@ function Skills() {
             img: gitimg,
             title: "GITHUB"
         },
+        {
+            id: 11,
+            img: "https://img.icons8.com/?size=512&id=jD-fJzVguBmw&format=png",
+            title: "Redux Toolkit"
+        },
+        {
+            id: 12,
+            img: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+            title: "tailwind"
+        },
+        {
+            id: 13,
+            img: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+            title: "next js"
+        },
         
     ]
 
