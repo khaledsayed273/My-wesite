@@ -5,6 +5,7 @@ import img1 from "../../imeges/2.png"
 import img2 from "../../imeges/3.png"
 import img3 from "../../imeges/4.png"
 import img4 from "../../imeges/Screenshot (15).png"
+import img5 from "../../imeges/Screenshot (16).png"
 
 function Portfolio() {
 
@@ -31,7 +32,12 @@ function Portfolio() {
         {
             id: 4,
             img: img4,
-            p: "dashboard I worked on at my previous company",
+            p: "dashboard my previous company.",
+        },
+        {
+            id: 5,
+            img: img5,
+            p: "shahen webSite",
         },
         
     ]
