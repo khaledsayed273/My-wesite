@@ -34,7 +34,7 @@ function About() {
 
     return (
         <>
-            <h2 className='text-center text-white mt-lg-5 mt-3 mb-5'>About Me</h2>
+            <h2 className='text-center text-white mt-lg-5 mt-5 mb-5'>About Me</h2>
             <div className='row justify-content-center w-100'>
                 <div className="col-6 d-none d-lg-block">
                     <div className={`${style.left} d-flex flex-column align-items-center justify-content-center`}>
@@ -50,7 +50,7 @@ function About() {
                         </ul>
                     </div>
                 </div>
-                <div className="col-6 d-flex align-items-center">
+                <div className="col-12 col-md-8 col-lg-6 d-flex align-items-center px-4 px-lg-0">
                     <div className={`${style.right} mt-5`}>
                         <p>{Data.details}</p>
                         <div className='d-flex'>

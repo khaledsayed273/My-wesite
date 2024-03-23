@@ -9,7 +9,7 @@
 }
 
 #cover{
-    background-color: rgba(40, 43, 52, 0.86);
+    background-color: rgba(25, 27, 32, 0.822);
     z-index: 990;
     position: fixed;
     left: 0;
@@ -36,9 +36,7 @@
     position: relative;
 }
 
-.open{
-    width: calc(100% - 250px) !important;
-}
+
 
 .home::after{
     content: '';

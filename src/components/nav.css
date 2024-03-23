@@ -9,11 +9,23 @@ nav{
     transition: width .2s ease 0s;
 }
 
+@media (max-width:576px) {
+    .add{
+        width: 600px !important;
+    }
+    
+}
+@media (max-width:767px) {
+    .add{
+        width: 400px !important;
+    }
+    
+}
+
 .add{
     visibility: visible !important;
-    width: 250px !important;
+    width: 350px ;
     border-right: 1px solid rgb(126, 126, 126);
-
 }
 
 ul{

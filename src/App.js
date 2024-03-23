@@ -5,10 +5,20 @@ import Page from "./components/Page";
 function App() {
 
 
-  const [state , setState] = useState(false)
+  const [state, setState] = useState(false)
 
   const toggle = () => {
     setState(!state)
+    if (!state) {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      })
+      document.querySelector("body").style.overflow =  "hidden"
+    }else{
+      document.querySelector("body").style.overflow =  "auto"
+
+    }
   }
 
   const openfun = state ? "open" : null
@@ -18,11 +28,11 @@ function App() {
   return (
     <div className="d-flex h-100 p-app ">
       <Nav toggle={toggle} state={navfun} />
-      <Page openfun={openfun}/>
-        <div id="cover" className={coverfun}></div>
-          <button id="btn" onClick={toggle}>
-            <i className="fa-solid fa-bars"></i>
-          </button>
+      <Page openfun={openfun} />
+      <div id="cover" className={coverfun}></div>
+      <button id="btn" onClick={toggle}>
+        <i className="fa-solid fa-bars"></i>
+      </button>
     </div>
   );
 }

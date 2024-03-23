@@ -6,9 +6,9 @@ import Home from './Home/Home'
 import Portfolio from './Portfolio/Portfolio'
 import Skills from './Skills/Skills'
 
-function Page({openfun}) {
+function Page() {
     return (
-        <div className={`page w-100 ${openfun}`} id="page">
+        <div className={`page w-100 `} id="page">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
