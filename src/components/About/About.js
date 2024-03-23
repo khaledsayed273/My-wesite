@@ -52,8 +52,8 @@ function About() {
                 </div>
                 <div className="col-12 col-md-8 col-lg-6 d-flex align-items-center px-4 px-lg-0">
                     <div className={`${style.right} mt-5`}>
-                        <p>{Data.details}</p>
-                        <div className='d-flex'>
+                        <p className='text-center text-lg-start'>{Data.details}</p>
+                        <div className='d-flex justify-content-center justify-content-lg-start'>
                             <a target="_blank" rel="noreferrer" className='btn btn-dark py-3 px-5 mt-3' href='https://www.linkedin.com/in/khaled-sayed-08939921a'>
                                 Hire Me
                             </a>
