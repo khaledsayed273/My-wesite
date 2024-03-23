@@ -80,7 +80,7 @@ function Skills() {
 
     return (
         <>
-            <h2 className='my-5 text-center'>My Skills</h2>
+            <h2  className='my-5 text-center text-white'>My Skills</h2>
             <div className='container mt-5'>
                 <div className="cards">
                     <div className='row '>

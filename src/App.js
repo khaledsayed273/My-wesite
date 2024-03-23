@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="d-flex h-100 p-app ">
-      <Nav state={navfun} />
+      <Nav toggle={toggle} state={navfun} />
       <Page openfun={openfun}/>
         <div id="cover" className={coverfun}></div>
           <button id="btn" onClick={toggle}>

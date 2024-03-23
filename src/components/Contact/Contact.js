@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './contact.css'
 
 function Contact() {
@@ -14,22 +13,22 @@ function Contact() {
 
     const Social = [
         {
-            id:1,
+            id: 1,
             type: "facebook-f",
             link: "https://www.facebook.com/khaledsayed27/"
         },
         {
-            id:2,
-            type: "twitter",
-            link: "https://twitter.com/_khaledsayed_?t=WHyl5gUutKvlz_4BFQryQg&s=09"
+            id: 2,
+            type: "linkedin",
+            link: "https://www.linkedin.com/in/khaled-sayed-08939921a"
         },
         {
-            id:3,
+            id: 3,
             type: "instagram",
             link: "https://www.instagram.com/_khaledsayed/?fbclid=IwAR2Z2-J_lbP_UYbLdL6DlWqzrSebwDUuJVazmIW3EWOmHqemO6wOolyLyTk"
         },
         {
-            id:4,
+            id: 4,
             type: "github",
             link: "https://github.com/khaledsayed273"
         },
@@ -38,7 +37,7 @@ function Contact() {
 
     return (
         <div className='contact'>
-            <h2 className='text-center my-5'>GET IN TOUCH</h2>
+            <h2 className='text-center text-white my-5'>GET IN TOUCH</h2>
             <div className='container'>
                 <div className='row '>
                     <div className="col-lg-4 col-12 gx-3 mt-3">
@@ -62,13 +61,14 @@ function Contact() {
                             <p className='text-center'>{Data.email}</p>
                         </div>
                     </div>
+
                     <ul className='mt-4 d-flex justify-content-center mt-5'>
-                        {Social.map(item => {
-                            return (
-                                <li key={item.id}><a target="_blank" href={item.link} rel="noreferrer"><i className={`fa-brands fa-${item.type}`}></i></a></li>
-                            )
-                        })}
-                    </ul>
+                            {Social.map(item => {
+                                return (
+                                    <li key={item.id}><a target="_blank" href={item.link} rel="noreferrer"><i className={`fa-brands fa-${item.type}`}></i></a></li>
+                                )
+                            })}
+                        </ul>
                 </div>
             </div>
         </div>

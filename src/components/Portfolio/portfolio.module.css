@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.562);
+    background-color: rgba(0, 0, 0, 0.637);
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -24,9 +24,12 @@
 .card:hover .over{
     z-index: 0;
 }
+.card:hover a{
+    background-color: rgba(104, 193, 134, 0.199);
 
-.link{
-    color: black;
-    background-color: rgb(104, 193, 133);
-    width: 50%;
 }
+.card:hover a:hover{
+    background-color: rgba(104, 193, 134, 0.39);
+
+}
+

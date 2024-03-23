@@ -17,8 +17,8 @@ function About() {
         },
         {
             id: 2,
-            type: "twitter",
-            link: "https://twitter.com/_khaledsayed_?t=WHyl5gUutKvlz_4BFQryQg&s=09"
+            type: "linkedin",
+            link: "https://www.linkedin.com/in/khaled-sayed-08939921a"
         },
         {
             id: 3,
@@ -51,16 +51,13 @@ function About() {
                     </div>
                 </div>
                 <div className="col-6 d-flex align-items-center">
-                    <div className={ `${style.right} mt-5`}>
+                    <div className={`${style.right} mt-5`}>
                         <p>{Data.details}</p>
-
-                        <a target='_blank' href="https://www.mediafire.com/file/15vagxxr4xrgf16/Frontend+developer+khaled+sayed.pdf/file" className={`d-inline-block p-0`} style={{
-                            background: "none"
-                        }} rel="noreferrer">
-                            <button className='btn btn-dark me-2 p-3 mt-3'>Download CV</button>
-                        </a>
-
-                        <button className='btn btn-dark mx-2 p-3 mt-3'>Hire Me</button>
+                        <div className='d-flex'>
+                            <a target="_blank" rel="noreferrer" className='btn btn-dark py-3 px-5 mt-3' href='https://www.linkedin.com/in/khaled-sayed-08939921a'>
+                                Hire Me
+                            </a>
+                        </div>
 
                     </div>
                 </div>

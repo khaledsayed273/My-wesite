@@ -6,6 +6,7 @@ import img2 from "../../imeges/3.png"
 import img3 from "../../imeges/4.png"
 import img4 from "../../imeges/Screenshot (15).png"
 import img5 from "../../imeges/Screenshot (16).png"
+import img6 from "../../imeges/megatron.png"
 
 function Portfolio() {
 
@@ -20,7 +21,7 @@ function Portfolio() {
         {
             id: 2,
             img: img2,
-            p: "the_event_product",
+            p: "The_event_product",
             link: "https://the-event-product.vercel.app/"
         },
         {
@@ -32,19 +33,26 @@ function Portfolio() {
         {
             id: 4,
             img: img4,
-            p: "dashboard my previous company.",
+            p: "Dashboard my previous company.",
         },
         {
             id: 5,
             img: img5,
-            p: "shahen webSite",
+            p: "Shahen Website",
+            link: "https://www.shahin-furniture.com/"
+        },
+        {
+            id: 6,
+            img: img6,
+            p: "Megatron Soft",
+            link: "https://megatron-soft.com/en"
         },
         
     ]
 
     return (
         <div>
-            <h3 className='text-white text-center my-5'>My Last projects</h3>
+            <h3 className='text-white text-center my-5'>My Last Projects</h3>
             <div className="container">
                 <div className="row">
                     {Data.map((item) => {
@@ -55,7 +63,7 @@ function Portfolio() {
                                         <img src={item.img} className="card-img-top w-100 h-100" alt="..." />
                                         <div className={style.over}>
                                             {item.link && (
-                                                <a target="_blank" className='w-50 text-center m-auto ' href={item.link} rel="noreferrer">Visit Website</a>
+                                                <a target="_blank" className='rounded-3 text-center m-auto ' href={item.link} rel="noreferrer">Visit This Website</a>
                                             ) }
                                         </div>
                                     </div>
