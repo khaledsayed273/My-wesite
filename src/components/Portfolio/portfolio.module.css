@@ -1,7 +1,6 @@
 .card{
     background-color: rgb(39, 43, 54);
     border-radius: 15px;
-    cursor: pointer;
 }
 .image{
     position: relative;

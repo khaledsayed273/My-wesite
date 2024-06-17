@@ -24,8 +24,8 @@ function Contact() {
         },
         {
             id: 3,
-            type: "instagram",
-            link: "https://www.instagram.com/_khaledsayed/?fbclid=IwAR2Z2-J_lbP_UYbLdL6DlWqzrSebwDUuJVazmIW3EWOmHqemO6wOolyLyTk"
+            type: "whatsapp",
+            link: "https://wa.me/201145645014"
         },
         {
             id: 4,
