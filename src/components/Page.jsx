@@ -222,7 +222,7 @@ function Page() {
           <p className="mt-6 max-w-3xl text-base text-foreground/80">
             I&apos;m excited to work with you to create innovative and impactful web solutions. Contact me to discuss your project requirements and explore how we can collaborate.
           </p>
-          <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2">
             <Card className="transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
               <Card.Content className="items-center gap-3 text-center">
                 <i className="fa-solid fa-phone text-2xl text-accent" />
@@ -232,13 +232,7 @@ function Page() {
             <Card className="transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
               <Card.Content className="items-center gap-3 text-center">
                 <i className="fa-solid fa-envelope text-2xl text-accent" />
-                <p className="text-xl font-semibold text-foreground">khaledelsayed273@gmail.com</p>
-              </Card.Content>
-            </Card>
-            <Card className="transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-              <Card.Content className="items-center gap-3 text-center">
-                <i className="fa-brands fa-instagram text-2xl text-accent" />
-                <p className="text-xl font-semibold text-foreground">khaled_elsayed2</p>
+                <p className="text-xl font-semibold text-foreground">khaledsayed273@gmail.com</p>
               </Card.Content>
             </Card>
           </div>
