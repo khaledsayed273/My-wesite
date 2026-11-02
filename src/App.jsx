@@ -6,9 +6,6 @@ function App() {
   const menuState = useOverlayState();
   const { setTheme, resolvedTheme } = useTheme("system");
 
-  // HeroUI's useTheme applies data-theme but may leave the inline bootstrap's
-  // `dark` class on <html>. Docs require class + data-theme to stay in sync,
-  // so we sync both ourselves on every toggle.
   const toggleTheme = () => {
     const next = resolvedTheme === "dark" ? "light" : "dark";
     setTheme(next);

@@ -6,35 +6,35 @@ const projects = [
     title: 'Masno3',
     description: 'Handmade marketplace connecting Egyptian artisans with customers, offering unique handmade products across multiple categories.',
     tech: 'Next.js, Fastify',
-    image: '/src/imeges/masno3.png',
+    image: '/imeges/masno3.png',
     link: 'https://www.masno3.com'
   },
   {
     title: 'Shahin',
     description: 'Online furniture marketplace offering a wide range of high-quality home furniture with a seamless shopping experience.',
     tech: 'Next.js, Fastify',
-    image: '/src/imeges/shahin.png',
+    image: '/imeges/shahin.png',
     link: 'https://www.shahin-furniture.com/'
   },
   {
     title: 'Golden Chef',
     description: 'Official website for the Golden Chef Festival, an international culinary competition bringing together talented chefs from around the world.',
     tech: 'Html, Php',
-    image: '/src/imeges/golden Chef.webp',
+    image: '/imeges/golden Chef.webp',
     link: 'https://golden-chef.megatron-soft.com/ar'
   },
   {
     title: 'Amir',
     description: 'Personal portfolio website developed for Amir Ashour, designed to showcase personal information, services, achievements, and featured projects in a clean and modern layout.',
     tech: 'Next.js, Php',
-    image: '/src/imeges/amir.png',
+    image: '/imeges/amir.png',
     // link: 'https://www.amir-furniture.com/'
   },
   {
     title: 'Government Project',
     description: 'Responsive event venue platform providing information about halls, events, services, and online reservations',
     tech: 'Next.js, Php',
-    image: '/src/imeges/government.png',
+    image: '/imeges/government.png',
     // link: 'https://www.government-furniture.com/'
   },
 
